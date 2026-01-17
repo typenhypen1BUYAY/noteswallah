@@ -1,0 +1,76 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NotesWallah | FREE Notes</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="idx.css">
+</head>
+<body>
+    <audio autoplay>
+  <source src="song.mp3" type="audio/mpeg">
+</audio>
+
+    <div class="video-background">
+    <video autoplay muted loop playsinline>
+<source src="https://assets.mixkit.co/videos/50112/50112-720.mp4" type="video/mp4">
+        <!-- Add other source types for compatibility -->
+    </video>
+    <div class="content-overlay">
+        <!-- Your main page content goes here -->
+    </div>
+</div>
+
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <h1 class="logo">NotesWallah</h1>
+        <a href="#" class="github-btn">JMD</a>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Free, Clean & Exam-Focused Notes</h2>
+        <p>Minimal • Aesthetic • Student Friendly</p>
+        <a href="#notes" class="cta-btn">Explore Notes</a>
+    </section>
+
+    <!-- Notes Section -->
+    <section class="notes" id="notes">
+        <h2 class="section-title">Subjects</h2>
+
+        <div class="notes-grid">
+
+            <div class="note-card">
+                <h3>Biology</h3>
+                <p>NCERT based concise notes for exams.</p>
+                <a href="https://drive.google.com/drive/folders/1c0E77Gkm64FZVs8fdTNPmyQZm7X_MrFP?usp=drive_link" class="download-btn">Download PDF</a>
+            </div>
+
+            <div class="note-card">
+                <h3>Chemistry</h3>
+                <p>Organic, Inorganic & Physical concepts.</p>
+                <a href="#" class="download-btn">Download PDF</a>
+            </div>
+
+            <div class="note-card">
+                <h3>Physics</h3>
+                <p>Conceptual notes with formulas.</p>
+                <a href="#" class="download-btn">Download PDF</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Made by BUYOY son of RUBY UPADHYAY bhai of shanya and aayushi and jai mata di </p>
+    </footer>
+
+</body>
+</html>
